@@ -28,7 +28,7 @@ Group Project - README Template
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
+* [fill in your required user stories here] xixi
 * ...
 
 **Optional Nice-to-have Stories**
