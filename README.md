@@ -132,8 +132,7 @@ None
 * Back bar button to Home Page 
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img width="541" alt="Wireframe" src="https://user-images.githubusercontent.com/32991904/55581850-e58c6f00-56eb-11e9-915d-0557f4096b29.PNG">
 
 ### [BONUS] Digital Wireframes & Mockups
 
