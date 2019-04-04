@@ -8,11 +8,12 @@
 
 ## Overview
 ### Description
+
 Studymates is an app that connects college students with other classmates who want to study together for the courses they take. This app also has a mission to bring students closer after the class. This app is not only performing as an academic targeting platform but also striving to become an effective social network builder for college students.
 
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
+
 - **Category:** Social Networking
 - **Mobile:** Mobile is essential for students to find the potential “studymates” instantly. Students use the app to join study groups, chat with their classmates and set up time for studying together. The camera is used to share images with the group.
 - **Story:** Connects students with other classmates who want to study together for the same course. Allows students to form study groups and get help from other students in the same course.
@@ -25,6 +26,7 @@ Studymates is an app that connects college students with other classmates who wa
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
+
 For Studymates, we identified the following “must-have” features which a user needs to be able to perform for the app to work:
 
 * User can create a new account
@@ -84,6 +86,7 @@ For Studymates, we identified the following “must-have” features which a use
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
+
 None
 
 **Flow Navigation** (Screen to Screen)
