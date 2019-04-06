@@ -74,24 +74,32 @@
 		CF3995F8224EDB7400BD537F /* StudyMates */ = {
 			isa = PBXGroup;
 			children = (
+				CFCB348A22583E6D00579A9F /* Storyboards */,
 				CF3995F9224EDB7400BD537F /* AppDelegate.swift */,
-				CF6360D322581E310063D597 /* Login.storyboard */,
-				CF6360D522581E9E0063D597 /* GroupChat.storyboard */,
-				CF6360D722581ECA0063D597 /* Search.storyboard */,
 				CF6360D922581ED40063D597 /* Result.storyboard */,
-				CF6360DB22581EE40063D597 /* GroupInfo.storyboard */,
-				CF6360DD22581EF40063D597 /* Notification.storyboard */,
-				CF6360DF22581F830063D597 /* CreationGroup.storyboard */,
-				CF6360D122581DC10063D597 /* SignUp.storyboard */,
 				CFF527452258049A003E08C6 /* HomeViewController.swift */,
 				CFF527412257DE04003E08C6 /* LoginViewController.swift */,
 				CFF527432257DE26003E08C6 /* SignUpViewController.swift */,
 				CF399600224EDB7800BD537F /* Assets.xcassets */,
 				CF399602224EDB7800BD537F /* LaunchScreen.storyboard */,
-				CF6360CF22581D410063D597 /* Home.storyboard */,
 				CF399605224EDB7800BD537F /* Info.plist */,
 			);
 			path = StudyMates;
+			sourceTree = "<group>";
+		};
+		CFCB348A22583E6D00579A9F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CF6360D722581ECA0063D597 /* Search.storyboard */,
+				CF6360D322581E310063D597 /* Login.storyboard */,
+				CF6360CF22581D410063D597 /* Home.storyboard */,
+				CF6360DB22581EE40063D597 /* GroupInfo.storyboard */,
+				CF6360DD22581EF40063D597 /* Notification.storyboard */,
+				CF6360D522581E9E0063D597 /* GroupChat.storyboard */,
+				CF6360D122581DC10063D597 /* SignUp.storyboard */,
+				CF6360DF22581F830063D597 /* CreationGroup.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
