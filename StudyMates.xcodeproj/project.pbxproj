@@ -76,7 +76,6 @@
 			children = (
 				CFCB348A22583E6D00579A9F /* Storyboards */,
 				CF3995F9224EDB7400BD537F /* AppDelegate.swift */,
-				CF6360D922581ED40063D597 /* Result.storyboard */,
 				CFF527452258049A003E08C6 /* HomeViewController.swift */,
 				CFF527412257DE04003E08C6 /* LoginViewController.swift */,
 				CFF527432257DE26003E08C6 /* SignUpViewController.swift */,
@@ -90,6 +89,7 @@
 		CFCB348A22583E6D00579A9F /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				CF6360D922581ED40063D597 /* Result.storyboard */,
 				CF6360D722581ECA0063D597 /* Search.storyboard */,
 				CF6360D322581E310063D597 /* Login.storyboard */,
 				CF6360CF22581D410063D597 /* Home.storyboard */,
