@@ -140,7 +140,8 @@ None
 
 ## Schema 
 
-#Post
+### Models
+#### Post
 
 | Property | Type | Description |
 | --- | --- | --- |
@@ -155,9 +156,13 @@ None
 | NumberOfNumber | Number | Number of the group people |
 | GroupName | String | Identification of groups |
 
-### Models
-[Add table of models]
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+#### List of network requests by screen
+
+  - Login Screen
+    - (Read/GET) Query logged in user object 
+  - Sign Up Screen
+    - (Read/GET) Query signed up new user object 
+
+###[OPTIONAL: List endpoints if using existing API such as Yelp]
