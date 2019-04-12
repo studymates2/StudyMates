@@ -169,17 +169,17 @@ None
     - (SEARCH/GET) Searched for exciting or desired groups 
     - (Create/POST) Query connected group chat  
   - Personal Information Screen
-    - (Read/GET) collected user personal information including username, real name, school, etc
-    - (Exit) Requested Back bar button to go back to the previous Home page 
-    - (Exit) Requested Logout button to roll back to the Sign in page
+    - (Read/GET) Collect user personal information including username, real name, school, etc
+    - (Exit) Request Back bar button to go back to the previous Home page 
+    - (Exit) Request Logout button to roll back to the Sign in page
   - Search Screen
-    - (Create/GET) Displayed final result of search 
+    - (Create/GET) Display final result of search 
     - (Exit) Request Back bar button to go back to Home page 
   - Result Screen
-    - (Read/GET) fetched desired groups based on what users have been looking for.
+    - (Read/GET) Fetch desired groups based on what users have been looking for.
     - (Exit) Request Back bar button to go back to Search Page
   - Group Information Screen 
-    - (Read/GET) collected user individual group information 
+    - (Read/GET) Collect user individual group information 
     - (Exit) Request Back bar button to go back to Result page 
   - Notification Screen 
     - (Create/GET) Query received notification alert  
@@ -188,4 +188,5 @@ None
   - Group Chat Screen 
     - (Create/POST) Internal message in group chat 
     
-[OPTIONAL: List endpoints if using existing API such as Yelp]
+
+#### [OPTIONAL:] Existing API Endpoints
