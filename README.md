@@ -141,7 +141,8 @@ None
 ## Schema 
 
 #Post
-| #Property | #Type | #Description |
+
+| Property | Type | Description |
 | --- | --- | --- |
 | Username | String | Unique username for login and access services |
 | Image | File | Image for username’s profile |
