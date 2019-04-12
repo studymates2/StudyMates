@@ -7,24 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CEDD49C71BED46AD51AF25E /* Pods_StudyMates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F1F64C18F2A7E971A98E4E3 /* Pods_StudyMates.framework */; };
 		CF3995FA224EDB7400BD537F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3995F9224EDB7400BD537F /* AppDelegate.swift */; };
 		CF399601224EDB7800BD537F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF399600224EDB7800BD537F /* Assets.xcassets */; };
 		CF399604224EDB7800BD537F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF399602224EDB7800BD537F /* LaunchScreen.storyboard */; };
 		CF6360D022581D410063D597 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6360CF22581D410063D597 /* Home.storyboard */; };
 		CF6360D222581DC10063D597 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6360D122581DC10063D597 /* SignUp.storyboard */; };
-		CF6360D422581E310063D597 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6360D322581E310063D597 /* Login.storyboard */; };
+		CF6360D422581E310063D597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6360D322581E310063D597 /* Main.storyboard */; };
 		CF6360D622581E9E0063D597 /* GroupChat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6360D522581E9E0063D597 /* GroupChat.storyboard */; };
 		CF6360D822581ECA0063D597 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6360D722581ECA0063D597 /* Search.storyboard */; };
 		CF6360DA22581ED40063D597 /* Result.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6360D922581ED40063D597 /* Result.storyboard */; };
 		CF6360DC22581EE40063D597 /* GroupInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6360DB22581EE40063D597 /* GroupInfo.storyboard */; };
 		CF6360DE22581EF40063D597 /* Notification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6360DD22581EF40063D597 /* Notification.storyboard */; };
 		CF6360E022581F830063D597 /* CreationGroup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6360DF22581F830063D597 /* CreationGroup.storyboard */; };
+		CFAD9D032261213700471391 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFAD9D022261213700471391 /* GoogleService-Info.plist */; };
 		CFF527422257DE04003E08C6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF527412257DE04003E08C6 /* LoginViewController.swift */; };
 		CFF527442257DE26003E08C6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF527432257DE26003E08C6 /* SignUpViewController.swift */; };
 		CFF527462258049A003E08C6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF527452258049A003E08C6 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C72058773AE56D82C74EF2D /* Pods-StudyMates.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyMates.release.xcconfig"; path = "Target Support Files/Pods-StudyMates/Pods-StudyMates.release.xcconfig"; sourceTree = "<group>"; };
+		6B20042E9E653E78A0E1D9EA /* Pods-StudyMates.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyMates.debug.xcconfig"; path = "Target Support Files/Pods-StudyMates/Pods-StudyMates.debug.xcconfig"; sourceTree = "<group>"; };
+		9F1F64C18F2A7E971A98E4E3 /* Pods_StudyMates.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudyMates.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF3995F6224EDB7400BD537F /* StudyMates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyMates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF3995F9224EDB7400BD537F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF399600224EDB7800BD537F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -32,13 +37,14 @@
 		CF399605224EDB7800BD537F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF6360CF22581D410063D597 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		CF6360D122581DC10063D597 /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
-		CF6360D322581E310063D597 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		CF6360D322581E310063D597 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		CF6360D522581E9E0063D597 /* GroupChat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GroupChat.storyboard; sourceTree = "<group>"; };
 		CF6360D722581ECA0063D597 /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
 		CF6360D922581ED40063D597 /* Result.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Result.storyboard; sourceTree = "<group>"; };
 		CF6360DB22581EE40063D597 /* GroupInfo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GroupInfo.storyboard; sourceTree = "<group>"; };
 		CF6360DD22581EF40063D597 /* Notification.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Notification.storyboard; sourceTree = "<group>"; };
 		CF6360DF22581F830063D597 /* CreationGroup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreationGroup.storyboard; sourceTree = "<group>"; };
+		CFAD9D022261213700471391 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CFF527412257DE04003E08C6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CFF527432257DE26003E08C6 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		CFF527452258049A003E08C6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -49,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CEDD49C71BED46AD51AF25E /* Pods_StudyMates.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42EC7B6D6F2238EFEEE9CA94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F1F64C18F2A7E971A98E4E3 /* Pods_StudyMates.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58B79AB695B26AAADFBDF70B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B20042E9E653E78A0E1D9EA /* Pods-StudyMates.debug.xcconfig */,
+				3C72058773AE56D82C74EF2D /* Pods-StudyMates.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CF3995ED224EDB7400BD537F = {
 			isa = PBXGroup;
 			children = (
 				CF3995F8224EDB7400BD537F /* StudyMates */,
 				CF3995F7224EDB7400BD537F /* Products */,
+				58B79AB695B26AAADFBDF70B /* Pods */,
+				42EC7B6D6F2238EFEEE9CA94 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +107,7 @@
 				CFF527432257DE26003E08C6 /* SignUpViewController.swift */,
 				CF399600224EDB7800BD537F /* Assets.xcassets */,
 				CF399602224EDB7800BD537F /* LaunchScreen.storyboard */,
+				CFAD9D022261213700471391 /* GoogleService-Info.plist */,
 				CF399605224EDB7800BD537F /* Info.plist */,
 			);
 			path = StudyMates;
@@ -91,7 +118,7 @@
 			children = (
 				CF6360D922581ED40063D597 /* Result.storyboard */,
 				CF6360D722581ECA0063D597 /* Search.storyboard */,
-				CF6360D322581E310063D597 /* Login.storyboard */,
+				CF6360D322581E310063D597 /* Main.storyboard */,
 				CF6360CF22581D410063D597 /* Home.storyboard */,
 				CF6360DB22581EE40063D597 /* GroupInfo.storyboard */,
 				CF6360DD22581EF40063D597 /* Notification.storyboard */,
@@ -109,9 +136,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF399608224EDB7800BD537F /* Build configuration list for PBXNativeTarget "StudyMates" */;
 			buildPhases = (
+				AF03A06A6D0C21A136136EDE /* [CP] Check Pods Manifest.lock */,
 				CF3995F2224EDB7400BD537F /* Sources */,
 				CF3995F3224EDB7400BD537F /* Frameworks */,
 				CF3995F4224EDB7400BD537F /* Resources */,
+				FC3B0F226FFAB9E0D512C00A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -162,9 +191,10 @@
 			files = (
 				CF399604224EDB7800BD537F /* LaunchScreen.storyboard in Resources */,
 				CF399601224EDB7800BD537F /* Assets.xcassets in Resources */,
-				CF6360D422581E310063D597 /* Login.storyboard in Resources */,
+				CF6360D422581E310063D597 /* Main.storyboard in Resources */,
 				CF6360E022581F830063D597 /* CreationGroup.storyboard in Resources */,
 				CF6360D022581D410063D597 /* Home.storyboard in Resources */,
+				CFAD9D032261213700471391 /* GoogleService-Info.plist in Resources */,
 				CF6360D822581ECA0063D597 /* Search.storyboard in Resources */,
 				CF6360D622581E9E0063D597 /* GroupChat.storyboard in Resources */,
 				CF6360D222581DC10063D597 /* SignUp.storyboard in Resources */,
@@ -175,6 +205,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AF03A06A6D0C21A136136EDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StudyMates-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC3B0F226FFAB9E0D512C00A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StudyMates/Pods-StudyMates-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StudyMates/Pods-StudyMates-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CF3995F2224EDB7400BD537F /* Sources */ = {
@@ -320,6 +401,7 @@
 		};
 		CF399609224EDB7800BD537F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B20042E9E653E78A0E1D9EA /* Pods-StudyMates.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -338,6 +420,7 @@
 		};
 		CF39960A224EDB7800BD537F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C72058773AE56D82C74EF2D /* Pods-StudyMates.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
