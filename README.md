@@ -56,20 +56,20 @@ For Studymates, we identified the following “must-have” features which a use
 **Sign Up Page**
 * New students are required to provide their name, school, username and password 
 
-**Home page**
-* It is registered users’ home page, and it consists two sections, one is indicating the groups the user owned and the other is for the groups the user have joined. On the very top of toolbar, there are the notification icon and search icon. 
-
-**Personal Information Page**
-* The user’s information is stored on personal information page. 
+**Home Page**
+* It is registered users’ home page, and it shows all groups the user owned or have joined. On the very top of toolbar, there are the notification icon and search icon. And at the bottom, there is a logout button.
 
 **Search Page**
 * User could search for their ideal study group by simply enter the school name, subject name and optional group name.
 
 **Result Page**
-* After user hit the search button on search page, the corresponding groups will be soon appearing and listing out on the page
+* After user hit the search button on search page, the corresponding groups will be soon appearing and listing out on the page. The user can also create a new group.
 
-**Group information Page**
+**Group Information Page**
 * This shows group basic information, including its name, associated school, subject, owner as well as the number of members in the group. The “Request to join” button on the bottom of page allows user to send out the request to group owner. For group members, there is a “Go to chat” button instead.
+
+**Create Group Page**
+* The user need to input the group name, school name, subject name, and introduction to create this group.
 
 **Notification Page** 
 * Group owner will receive notifications when a new member wants to join a group, and when you successfully accept or decline the request
@@ -101,12 +101,8 @@ None
 **Home Page**
 * Notification icon to Notification Page 
 * Search icon to Search Page
-* Profile picture to Personal Information Page
 * Group cell to its group chat
-
-**Personal Information Page**
-* Back bar button to Home Page
-* Logout button to Sign In Page
+* Logout icon to Login Page
 
 **Search Page**
 * Back bar button to Home Page 
@@ -114,9 +110,13 @@ None
 
 **Result Page**
 * Back bar button to Search Page
-* Search result cell goes to the Group Information Page 
+* Search result cell goes to the Group Information Page
+* "Create a new group" to Create Group Page
 
 **Group Information Page**
+* Back bar button to Result Page
+
+**Create Group Page**
 * Back bar button to Result Page
 
 **Notification Page**
@@ -132,17 +132,61 @@ None
 * Back bar button to Home Page 
 
 ## Wireframes
-<img width="541" alt="Wireframe" src="https://user-images.githubusercontent.com/32991904/55581850-e58c6f00-56eb-11e9-915d-0557f4096b29.PNG">
+<img width="528" alt="Wireframe" src="https://user-images.githubusercontent.com/32991904/55664031-aa766280-57f5-11e9-883d-d7d322b7ee7a.PNG">
 
 ### [BONUS] Digital Wireframes & Mockups
 
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
-[Add table of models]
+#### Post
+
+| Property | Type | Description |
+| --- | --- | --- |
+| Username | String | Unique username for login and access services |
+| Image | File | Image for username’s profile |
+| School | String | Identify school in our service |
+| RealName | String | Providing username’s real name |
+| ChatMessage | String | A channel where users could share ideas and social networking  |
+| ListOfGroups | String | Displaying in dropdown list, identifying a specific group to join in |
+| Subject | String | Intended subject that users need help and study mates |
+| Owner | String | Indicating the person who created groups |
+| NumberOfNumber | Number | Number of the group people |
+| GroupName | String | Identification of groups |
+
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+#### List of network requests by screen
+
+  - Login Screen
+    - (Read/GET) Query logged in user object 
+  - Sign Up Screen
+    - (Read/GET) Query signed up new user object
+  - Home Feed Screen 
+    - (Create/GET) Received notification when people requested to join or a new member has been joined in group   
+    - (SEARCH/GET) Searched for exciting or desired groups 
+    - (Create/POST) Query connected group chat  
+  - Personal Information Screen
+    - (Read/GET) Collect user personal information including username, real name, school, etc
+    - (Exit) Request Back bar button to go back to the previous Home page 
+    - (Exit) Request Logout button to roll back to the Sign in page
+  - Search Screen
+    - (Create/GET) Display final result of search 
+    - (Exit) Request Back bar button to go back to Home page 
+  - Result Screen
+    - (Read/GET) Fetch desired groups based on what users have been looking for.
+    - (Exit) Request Back bar button to go back to Search Page
+  - Group Information Screen 
+    - (Read/GET) Collect user individual group information 
+    - (Exit) Request Back bar button to go back to Result page 
+  - Notification Screen 
+    - (Create/GET) Query received notification alert  
+  - Message Screen 
+    - (Create/GET) Query received notification message
+  - Group Chat Screen 
+    - (Create/POST) Internal message in group chat 
+    
+
+#### [OPTIONAL:] Existing API Endpoints
