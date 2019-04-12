@@ -163,6 +163,29 @@ None
   - Login Screen
     - (Read/GET) Query logged in user object 
   - Sign Up Screen
-    - (Read/GET) Query signed up new user object 
-
-###[OPTIONAL: List endpoints if using existing API such as Yelp]
+    - (Read/GET) Query signed up new user object
+  - Home Feed Screen 
+    - (Create/GET) Received notification when people requested to join or a new member has been joined in group   
+    - (SEARCH/GET) Searched for exciting or desired groups 
+    - (Create/POST) Query connected group chat  
+  - Personal Information Screen
+    - (Read/GET) collected user personal information including username, real name, school, etc
+    - (Exit) Requested Back bar button to go back to the previous Home page 
+    - (Exit) Requested Logout button to roll back to the Sign in page
+  - Search Screen
+    - (Create/GET) Displayed final result of search 
+    - (Exit) Request Back bar button to go back to Home page 
+  - Result Screen
+    - (Read/GET) fetched desired groups based on what users have been looking for.
+    - (Exit) Request Back bar button to go back to Search Page
+  - Group Information Screen 
+    - (Read/GET) collected user individual group information 
+    - (Exit) Request Back bar button to go back to Result page 
+  - Notification Screen 
+    - (Create/GET) Query received notification alert  
+  - Message Screen 
+    - (Create/GET) Query received notification message
+  - Group Chat Screen 
+    - (Create/POST) Internal message in group chat 
+    
+[OPTIONAL: List endpoints if using existing API such as Yelp]
