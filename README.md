@@ -139,7 +139,21 @@ None
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+
+#Post
+| #Property | #Type | #Description |
+| --- | --- | --- |
+| Username | String | Unique username for login and access services |
+| Image | File | Image for username’s profile |
+| School | String | Identify school in our service |
+| RealName | String | Providing username’s real name |
+| ChatMessage | String | A channel where users could share ideas and social networking  |
+| ListOfGroups | String | Displaying in dropdown list, identifying a specific group to join in |
+| Subject | String | Intended subject that users need help and study mates |
+| Owner | String | Indicating the person who created groups |
+| NumberOfNumber | Number | Number of the group people |
+| GroupName | String | Identification of groups |
+
 ### Models
 [Add table of models]
 ### Networking
