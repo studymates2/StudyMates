@@ -7,6 +7,6 @@ target 'StudyMates' do
 
   # Pods for StudyMates
   pod 'Firebase/Core'
-  pod 'FirebaseUI/Auth'
+  pod 'Firebase/Auth'
 
 end

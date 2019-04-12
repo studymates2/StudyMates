@@ -102,12 +102,12 @@
 			children = (
 				CFCB348A22583E6D00579A9F /* Storyboards */,
 				CF3995F9224EDB7400BD537F /* AppDelegate.swift */,
-				CFAD9D022261213700471391 /* GoogleService-Info.plist */,
 				CFF527452258049A003E08C6 /* HomeViewController.swift */,
 				CFF527412257DE04003E08C6 /* LoginViewController.swift */,
 				CFF527432257DE26003E08C6 /* SignUpViewController.swift */,
 				CF399600224EDB7800BD537F /* Assets.xcassets */,
 				CF399602224EDB7800BD537F /* LaunchScreen.storyboard */,
+				CFAD9D022261213700471391 /* GoogleService-Info.plist */,
 				CF399605224EDB7800BD537F /* Info.plist */,
 			);
 			path = StudyMates;
@@ -141,7 +141,6 @@
 				CF3995F3224EDB7400BD537F /* Frameworks */,
 				CF3995F4224EDB7400BD537F /* Resources */,
 				FC3B0F226FFAB9E0D512C00A /* [CP] Embed Pods Frameworks */,
-				8DFADD88A880EF3D9A4408C9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -208,28 +207,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8DFADD88A880EF3D9A4408C9 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-StudyMates/Pods-StudyMates-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StudyMates/Pods-StudyMates-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		AF03A06A6D0C21A136136EDE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
