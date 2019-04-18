@@ -8,5 +8,6 @@ target 'StudyMates' do
   # Pods for StudyMates
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
 
 end

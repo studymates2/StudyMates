@@ -11,17 +11,28 @@ import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     var window: UIWindow?
 
-
+    override init() {
+        super.init()
+        FirebaseApp.configure()     // need this here because App will crash need to init it FIRST!!!
+        // db = firestore.firestore() executes before the application didFinishLaunchingWithOptions function is executed. So we need at init()
+        
+        //Essentially your class is trying to get a reference to the Firebase database before it has a chance to configure itself, generating the error in the console "The default app has not been configured yet."
+    }
+    
+    static let db = Firestore.firestore()
+    
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        FirebaseApp.configure()
+        
         
         return true
+        
     }
-
+    
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
@@ -45,5 +56,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
-}
 
+}

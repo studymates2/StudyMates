@@ -6,17 +6,61 @@
 //  Copyright © 2019 Kenneth Li. All rights reserved.
 //
 
+
+
+
 import UIKit
+import Firebase
 
 class SignUpViewController: UIViewController {
+    
 
+    
+    @IBOutlet weak var nameField: UITextField!
+    @IBOutlet weak var usernameField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
+    @IBOutlet weak var emailField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
+    
+    @IBAction func signupButton(_ sender: Any) {
+        
+        // Need to still checking unique user/email and not empty
+        // Check Username/password not empty
+        
+        Auth.auth().createUser(withEmail: emailField.text!, password: passwordField.text!) { (user, error) in
+            if error == nil {
+                let mainViewController = self.storyboard?.instantiateViewController(withIdentifier: "Home") as! HomeViewController
+                self.navigationController?.pushViewController(mainViewController, animated: true)
+            }
+            else{
+                let alertController = UIAlertController(title: "Error", message: error?.localizedDescription, preferredStyle: .alert)
+                let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+                
+                alertController.addAction(defaultAction)
+                self.present(alertController, animated: true, completion: nil)
+                
+                }
+            }
+    // Check Usernamefieldtext as well to be valid. AND not empty as well or error:{ User Reference is 1.}
+        
+        AppDelegate.db.collection("Users").document(usernameField.text!).setData(["email-id" : emailField.text!])
+        }
+    
+    @IBAction func onCancel(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+}
 
+
+
+    
     /*
     // MARK: - Navigation
 
@@ -27,4 +71,3 @@ class SignUpViewController: UIViewController {
     }
     */
 
-}

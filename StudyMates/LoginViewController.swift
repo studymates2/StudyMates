@@ -7,16 +7,66 @@
 //
 
 import UIKit
+import Firebase
 
 class LoginViewController: UIViewController {
 
+    @IBOutlet weak var usernameField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        
         // Do any additional setup after loading the view.
     }
     
+    
+    
 
+    @IBAction func onLogin(_ sender: Any) {
+        // add checking if usernameField.text is not empty. else get error.
+        
+        let collectionRef = AppDelegate.db.collection("Users").document(usernameField.text!)
+        collectionRef.getDocument { (document, error) in
+            if let document = document, document.exists {
+                
+                let dataDescription = document.get("email-id") as! String
+                print(dataDescription)
+                self.signin(dataDescription, self.passwordField.text!)
+                
+            } else {
+                print("Document does not exist")
+            }
+        }
+    }
+    
+    
+    
+    func signin(_ username: String,_ password: String) {
+        Auth.auth().signIn(withEmail: username, password: password) { (user, error) in
+            if error == nil{
+                // Navigate to HomeViewController
+                let mainViewController = self.storyboard?.instantiateViewController(withIdentifier: "Home") as! HomeViewController
+                self.navigationController?.pushViewController(mainViewController, animated: true)
+                
+            }
+            else{
+                let alertController = UIAlertController(title: "Error", message: error?.localizedDescription, preferredStyle: .alert)
+                let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+
+                alertController.addAction(defaultAction)
+                self.present(alertController, animated: true, completion: nil)
+            }
+        }
+    }
+        
+
+}
+
+
+    
     /*
     // MARK: - Navigation
 
@@ -27,4 +77,7 @@ class LoginViewController: UIViewController {
     }
     */
 
-}
+
+
+
+
