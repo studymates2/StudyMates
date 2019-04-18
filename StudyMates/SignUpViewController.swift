@@ -48,8 +48,9 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
         
         Auth.auth().createUser(withEmail: emailField.text!, password: passwordField.text!) { (user, error) in
             if error == nil {
-                let mainViewController = self.storyboard?.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
-                self.navigationController?.pushViewController(mainViewController, animated: true)
+                let Homestoryboard = UIStoryboard(name: "Home", bundle: nil)
+                let vc = Homestoryboard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
+                self.present(vc, animated: true, completion: nil)
             }
             else{
                 let alertController = UIAlertController(title: "Error", message: error?.localizedDescription, preferredStyle: .alert)

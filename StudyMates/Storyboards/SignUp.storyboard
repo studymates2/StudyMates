@@ -101,6 +101,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="kxt-NA-ehb"/>
                     </view>
+                    <navigationItem key="navigationItem" id="sFf-gs-6OF"/>
                     <connections>
                         <outlet property="emailField" destination="vNG-Gw-GYY" id="L01-ea-UiE"/>
                         <outlet property="nameField" destination="gbK-NW-hGn" id="mbX-pb-O2Q"/>
@@ -110,7 +111,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aza-HM-adN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-111.2" y="713.79310344827593"/>
+            <point key="canvasLocation" x="802" y="714"/>
         </scene>
     </scenes>
 </document>

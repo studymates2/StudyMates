@@ -59,7 +59,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
                 print("Hello World")
                 let Homestoryboard = UIStoryboard(name: "Home", bundle: nil)
                 let vc = Homestoryboard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
-                self.navigationController?.pushViewController(vc, animated: true)
+                self.present(vc, animated: true, completion: nil)
             }
                 
             else{
