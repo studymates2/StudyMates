@@ -29,23 +29,23 @@ Studymates is an app that connects college students with other classmates who wa
 
 For Studymates, we identified the following “must-have” features which a user needs to be able to perform for the app to work:
 
-* User can create a new account
-* User can login and logout
-* User can see study groups they owns or joined
-* User can see their profile page with their photos, name and school
-* User can search for existing study groups
-* User can see the information of study groups
-* User can request to join a study group
-* User can form a study group
-* User can accept or decline others’ request to join the group he/she owns
-* User can chat in the study group
-* User can receive notifications when he/she receive a request to join or successfully join a group
+- [x] User can create a new account
+- [x] User can login and logout
+- [ ] User can see study groups they owns or joined
+- [ ] User can see their profile page with their photos, name and school
+- [ ] User can search for existing study groups
+- [ ] User can see the information of study groups
+- [ ] User can request to join a study group
+- [ ] User can form a study group
+- [ ] User can accept or decline others’ request to join the group he/she owns
+- [ ] User can chat in the study group
+- [ ] User can receive notifications when he/she receive a request to join or successfully join a group
 
 **Optional Nice-to-have Stories**
 
-* User can make appointments to meet offline and study together
-* User can upload files in the group
-* User can add a comment to a file
+- [ ] User can make appointments to meet offline and study together
+- [ ] User can upload files in the group
+- [ ] User can add a comment to a file
 
 ### 2. Screen Archetypes
 
