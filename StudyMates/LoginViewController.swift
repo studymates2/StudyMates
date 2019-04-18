@@ -56,10 +56,12 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         Auth.auth().signIn(withEmail: username, password: password) { (user, error) in
             if error == nil{
                 // Navigate to HomeViewController
-                let mainViewController = self.storyboard?.instantiateViewController(withIdentifier: "Home") as! HomeViewController
-                self.navigationController?.pushViewController(mainViewController, animated: true)
-                
+                print("Hello World")
+                let Homestoryboard = UIStoryboard(name: "Home", bundle: nil)
+                let vc = Homestoryboard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
+                self.navigationController?.pushViewController(vc, animated: true)
             }
+                
             else{
                 let alertController = UIAlertController(title: "Error", message: error?.localizedDescription, preferredStyle: .alert)
                 let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
