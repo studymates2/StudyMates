@@ -190,6 +190,6 @@ None
     
 
 ### Sprint 10 Gif Progress
-<img src="http://g.recordit.co/gB6QXdQVFQ.gif><br>
+<img src="http://g.recordit.co/gB6QXdQVFQ.gif" width=250><br>
 
 #### [OPTIONAL:] Existing API Endpoints
