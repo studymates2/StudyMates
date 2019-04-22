@@ -49,7 +49,7 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
         Auth.auth().createUser(withEmail: emailField.text!, password: passwordField.text!) { (user, error) in
             if error == nil {
                 let Homestoryboard = UIStoryboard(name: "Home", bundle: nil)
-                let vc = Homestoryboard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
+                let vc = Homestoryboard.instantiateViewController(withIdentifier: "TabBarController")
                 self.present(vc, animated: true, completion: nil)
             }
             else{

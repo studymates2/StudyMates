@@ -58,7 +58,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
                 // Navigate to HomeViewController
                 print("Hello World")
                 let Homestoryboard = UIStoryboard(name: "Home", bundle: nil)
-                let vc = Homestoryboard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
+                let vc = Homestoryboard.instantiateViewController(withIdentifier: "TabBarController")
                 self.present(vc, animated: true, completion: nil)
             }
                 
