@@ -11,6 +11,7 @@
 		5CEDD49C71BED46AD51AF25E /* Pods_StudyMates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F1F64C18F2A7E971A98E4E3 /* Pods_StudyMates.framework */; };
 		CF3995FA224EDB7400BD537F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3995F9224EDB7400BD537F /* AppDelegate.swift */; };
 		CF399604224EDB7800BD537F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF399602224EDB7800BD537F /* LaunchScreen.storyboard */; };
+		CF4A5AD2226E7DE60078AB87 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4A5AD1226E7DE60078AB87 /* ProfileViewController.swift */; };
 		CF6360D022581D410063D597 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6360CF22581D410063D597 /* Home.storyboard */; };
 		CF6360D222581DC10063D597 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6360D122581DC10063D597 /* SignUp.storyboard */; };
 		CF6360D422581E310063D597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6360D322581E310063D597 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 		CF3995F9224EDB7400BD537F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF399603224EDB7800BD537F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF399605224EDB7800BD537F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF4A5AD1226E7DE60078AB87 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		CF6360CF22581D410063D597 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		CF6360D122581DC10063D597 /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
 		CF6360D322581E310063D597 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			children = (
 				CFCB348A22583E6D00579A9F /* Storyboards */,
 				CF3995F9224EDB7400BD537F /* AppDelegate.swift */,
+				CF4A5AD1226E7DE60078AB87 /* ProfileViewController.swift */,
 				CFF527452258049A003E08C6 /* HomeViewController.swift */,
 				CFF527412257DE04003E08C6 /* LoginViewController.swift */,
 				CFF527432257DE26003E08C6 /* SignUpViewController.swift */,
@@ -274,6 +277,7 @@
 			files = (
 				CFF527442257DE26003E08C6 /* SignUpViewController.swift in Sources */,
 				CFF527422257DE04003E08C6 /* LoginViewController.swift in Sources */,
+				CF4A5AD2226E7DE60078AB87 /* ProfileViewController.swift in Sources */,
 				CF3995FA224EDB7400BD537F /* AppDelegate.swift in Sources */,
 				CFF527462258049A003E08C6 /* HomeViewController.swift in Sources */,
 			);
