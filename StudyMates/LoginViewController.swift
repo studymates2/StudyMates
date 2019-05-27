@@ -70,6 +70,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
                 self.present(alertController, animated: true, completion: nil)
             }
         }
+        print(Auth.auth().currentUser)
     }
         
 

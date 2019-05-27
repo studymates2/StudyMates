@@ -13,6 +13,7 @@
         <!--View Controller-->
         <scene sceneID="Q12-Dj-KfF">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LKl-2E-YhW" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="DA0-5K-ZLU" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8MK-5K-zWm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -31,7 +32,6 @@
                         <barButtonItem key="leftBarButtonItem" title="Back" id="GCu-R4-zEc"/>
                     </navigationItem>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LKl-2E-YhW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1148" y="124"/>
         </scene>
