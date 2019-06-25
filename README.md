@@ -189,7 +189,10 @@ None
     - (Create/POST) Internal message in group chat 
     
 
-### Sprint 10 Gif Progress
+### Sprint 1 Gif Progress
 <img src="http://g.recordit.co/gB6QXdQVFQ.gif" width=250><br>
 
+
+### Sprint 2 Gif Progress
+<img src="http://g.recordit.co/dlSUE1uwQc.gif" width=250><br>
 #### [OPTIONAL:] Existing API Endpoints
